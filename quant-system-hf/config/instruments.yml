@@ -1,0 +1,12 @@
+instruments:
+  EURUSD:
+    asset_class: fx
+    pip_size: 0.0001
+    tick_size: 0.00001
+    contract_size: 100000
+    point_value: 10.0
+  XAUUSD:
+    asset_class: metal
+    tick_size: 0.01
+    contract_size: 100
+    point_value: 1.0

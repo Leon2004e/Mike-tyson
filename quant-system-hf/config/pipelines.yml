@@ -1,0 +1,18 @@
+pipelines:
+  - name: ingest_trades
+    enabled: true
+  - name: standardize_trades
+    enabled: true
+  - name: enrich_calendar
+    enabled: true
+  - name: standardize_marketdata
+    enabled: false
+  - name: compute_sessions
+    enabled: false
+  - name: compute_prev_levels
+    enabled: false
+  - name: build_features
+    enabled: true
+    feature_version: "v1_0"
+  - name: build_taxonomy
+    enabled: true

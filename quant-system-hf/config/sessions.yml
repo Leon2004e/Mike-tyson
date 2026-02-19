@@ -1,0 +1,5 @@
+timezone: "UTC"
+sessions:
+  asia:   { start: "00:00", end: "08:00" }
+  london: { start: "08:00", end: "16:00" }
+  newyork:{ start: "13:30", end: "20:00" }

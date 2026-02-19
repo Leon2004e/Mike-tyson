@@ -1,0 +1,5 @@
+defaults:
+  commission_money: 0.0
+  swap_money: 0.0
+  spread_pips: 0.2
+  slippage_pips: 0.1

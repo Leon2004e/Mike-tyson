@@ -1,0 +1,4 @@
+risk:
+  target_r_money: 100.0
+  max_daily_dd_r: 5.0
+  max_strategy_dd_r: 20.0
